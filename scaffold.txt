@@ -1,0 +1,9 @@
+﻿Scaffold-DbContext "Data Source=localhost;Initial Catalog=MiAlmacen;Integrated Security=True;TrustServerCertificate=True" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -force -project WebApiAlmacen
+
+Personalizaciom
+
+Data Source = Ponemos nuestro servidos
+Initial Catalog = Base de datos 
+-Provider hace referencia al motor de base de datos a emplear, en nuestro caso SQL Server. Para otras bases de datos, buscar documentacion
+-OutputDir = Si queremos cambiar el nombre a la carpeta donde van a ir los modelos, cambiamos por otro nombre
+-force sobrescribe los modelos anteriores
